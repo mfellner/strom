@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stream require generator function 1`] = `"new Stream() requires a generator function."`;

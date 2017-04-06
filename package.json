@@ -1,0 +1,22 @@
+{
+  "name": "strom",
+  "version": "0.1.0-alpha.1",
+  "description": "Functional, lazy streams.",
+  "main": "src/index.js",
+  "repository": "https://github.com/mfellner/strom",
+  "author": "Maximilian Fellner <max.fellner@gmail.com>>",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "devDependencies": {
+    "jest": "19.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ]
+  }
+}
